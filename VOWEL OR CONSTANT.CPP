@@ -8,11 +8,11 @@ void main()
 	c=='i' || c=='I' || c=='o' || c=='O' ||
 	c=='u' || c=='U')
 	{
-		cout<<"This is a vowel";
+		cout<<"This is a Vowel";
 	}
 	else
 	{
-		cout<<"constant";
+		cout<<"Constant";
 	}
 	return 0;
 }
