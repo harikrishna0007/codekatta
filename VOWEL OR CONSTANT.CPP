@@ -12,7 +12,7 @@ int main()
 	}
 	else
 	{
-		cout<<"Constant";
+		cout<<"Consonant";
 	}
 	return 0;
 }
