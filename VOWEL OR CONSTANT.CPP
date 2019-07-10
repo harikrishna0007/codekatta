@@ -8,7 +8,7 @@ void main()
 	c=='i' || c=='I' || c=='o' || c=='O' ||
 	c=='u' || c=='U')
 	{
-		cout<<"This is a Vowel";
+		cout<<"Vowel";
 	}
 	else
 	{
