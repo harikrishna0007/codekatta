@@ -5,8 +5,8 @@ int main()
     int n;
     cin >> n;
     if ( n % 2 == 0)
-        cout <<  " Even.";
+        cout <<  " Even ";
     else
-        cout << " Odd.";
+        cout << " Odd ";
     return 0;
 }
