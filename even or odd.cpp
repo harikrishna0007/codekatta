@@ -3,11 +3,10 @@ using namespace std;
 int main()
 {
     int n;
-    cout << "Enter an integer: ";
     cin >> n;
     if ( n % 2 == 0)
-        cout << n << " is even.";
+        cout <<  " Even.";
     else
-        cout << n << " is odd.";
+        cout << " Odd.";
     return 0;
 }
