@@ -7,6 +7,6 @@ for(i=1;i<=n;i++)
 {
 fact=fact*i;
 }
-ptintf("%d",fact);
+printf("%d",fact);
 return 0;
 }
