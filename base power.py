@@ -1,11 +1,11 @@
 try:
-	def power(base,exponent):
+	def power(bas,exponent):
 	     if(exponent==1):
-	          return(base)
+	          return(bas)
 	     if(exponent!=1):
-	          return(base*power(base,exponent-1))
-	base=int(input())
+	          return(bas*power(bas,exponent-1))
+	bas=int(input())
 	exponent=int(input())
-	print(power(base,exponent))
+	print(power(bas,exponent))
 except:
 	print("InvalidInput")
