@@ -5,7 +5,6 @@ int main()
 {
   
 	int a, b, c, big;
-	cout<<"Enter three numbers : ";
 	cin>>a>>b>>c;
 	//let a is the biggest
 	big=a;
@@ -35,6 +34,6 @@ int main()
 	{
 		big=a;
 	}
-	cout<<"Biggest number is "<<big;
+	cout<<big;
 	return 0;
 }
