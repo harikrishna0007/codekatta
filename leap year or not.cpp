@@ -4,7 +4,6 @@ int main()
 {
 
 	int yr;
-	cout<<"Enter year :";
 	cin>>yr;
 	if((yr%4==0) && (yr%100!=0))
 	{
