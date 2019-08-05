@@ -4,20 +4,20 @@ using namespace std;
 int main() {
 	int n;
   int o;
-  int v=0;
+  int h=0;
   
   
 	cin>>o;
-	int k[o];
+	int h[o];
 	cin>>n;
-	for(int i=0;i<7;i++)
+	for(int i=0;i<5;i++)
 	{
-		cin>>k[i];
+		cin>>h[i];
 	}
 	for(int i=0;i<n;i++)
 	{
-		v=v+k[i];
+		h=h+k[i];
 	}
-	cout<<v;
+	cout<<h;
 	
 }
