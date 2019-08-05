@@ -6,7 +6,7 @@ int main()
 
 	char ch;
 	cin>>ch;
-	if((ch>='a'&& ch<='z') || (ch>='A' && ch<='Z'))
+	if((ch>='a'&& ch<='z')
 	{
 		cout<<ch<<"Alphabet";
 	}
