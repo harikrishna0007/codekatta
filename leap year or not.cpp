@@ -7,7 +7,7 @@ int main()
 	cin>>yr;
 	if((yr%4==0) && (yr%100!=0))
 	{
-		cout<<"This is a Leap Year";
+		cout<<"yes";
 	}
 	// else if((yr%100==0) && (yr%400==0))
 	// {
@@ -15,11 +15,11 @@ int main()
 	// }
 	else if(yr%400==0)
 	{
-		cout<<"This is a Leap Year";
+		cout<<"yes";
 	}
 	else
 	{
-		cout<<"This is not a Leap Year";
+		cout<<"no";
 	}
  return 0;
 }
