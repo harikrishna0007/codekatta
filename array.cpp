@@ -8,11 +8,11 @@ int main() {
   
   
 	cin>>o;
-	int h[o];
+	int k[o];
 	cin>>n;
 	for(int i=0;i<5;i++)
 	{
-		cin>>h[i];
+		cin>>k[i];
 	}
 	for(int i=0;i<n;i++)
 	{
