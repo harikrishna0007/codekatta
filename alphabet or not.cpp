@@ -8,11 +8,11 @@ int main()
 	cin>>ch;
 	if((ch>='a'&& ch<='z') || (ch>='A' && ch<='Z'))
 	{
-		cout<<ch<<"alphabet";
+		cout<<ch<<"Alphabet";
 	}
 	else
 	{
-		cout<<ch<<"no";
+		cout<<ch<<"No";
 	}
 	return 0;
 }
