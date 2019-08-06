@@ -6,5 +6,5 @@ int main() {
   int k;
   cin>>s>>k;
   for( int i=0;i<k;i++)
-    cout<<s<< ' ';
+    cout<<s<<'\n';
 }
