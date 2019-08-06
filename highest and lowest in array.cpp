@@ -10,12 +10,12 @@ for(i=0;i<n;i++)
   min = arr[j];
   for(i=0;i<n;i++)
   {
-    if(max < arr[i])
+    if(max > arr[i])
        max = arr[i];
   }
   for(j=0;j<n;j++)
   {
-    if(min > arr[j])
+    if(min < arr[j])
        min = arr[j];
   }
   cout << max<<' '<<min;
