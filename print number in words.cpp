@@ -7,7 +7,7 @@ int main() {
 
   cin>>n;
   if(n==1){
-    cout<<"one";
+    cout<<"One";
   }
 	return 0;
 }
