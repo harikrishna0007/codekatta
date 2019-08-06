@@ -13,11 +13,13 @@ int main ()
    for(int j=0;j<k.length();j++){
    	count2++;
    }
-   if(count1>=count2){
+   if(count1>count2){
    	cout<<s;
    }
-   else{
+   else if (count1==count2){
    	cout<<k;
    }
-   
+   else{
+     cout <<k;
+   }
 }
