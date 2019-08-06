@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 int main() {
 	int a,m1,b,m2;
 	cin>>a>>m1;
