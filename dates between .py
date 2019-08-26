@@ -1,0 +1,8 @@
+from datetime import date,timedelta;
+sdate=date(2017,1,10)
+edate=date(2017,3,15)
+
+delta=edate-sdate
+for i in range(delta.days+1):
+  day=sdate+timedelta(days=i)
+  print(day)
